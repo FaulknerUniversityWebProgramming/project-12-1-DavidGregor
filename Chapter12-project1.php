@@ -41,14 +41,22 @@
            <label>Genre</label><br/>
            <select name="genre" class="form__input form__select">
               <option>Choose genre</option> 
-              
+             <?php
+                  foreach ($genres as $genre){
+                    echo "<option>".$genre."</option>";
+                  }
+             ?>
            </select>
        </p>
        <p class="form__row"> 
            <label>Subject</label><br/>
            <select name="subject" class="form__input form__select">
-              <option>Choose subject</option> 
-              
+              <option>Choose subject</option>  
+             <?php
+                  foreach ($subjects as $subject){
+                    echo "<option>".$subject."</option>";
+                  }
+             ?>
            </select>
        </p>
        <p class="form__row">	
