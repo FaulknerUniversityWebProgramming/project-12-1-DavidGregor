@@ -1,5 +1,15 @@
 <?php 
-
+  $genres = array(
+    '1' => "Abstract",
+    '2' => "Baroque",
+    '3' => "Gothic",
+    '4' => "Renaissance"
+  );
+  $subjects = array(
+    '1' => "Animals",
+    '2' => "Landscape",
+    '3' => "People"
+  );
 
 ?>
 <!DOCTYPE html>
